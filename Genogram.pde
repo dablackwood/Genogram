@@ -1,29 +1,6 @@
 /*
 Lets you draw a genogram.
 
-To do:
-- Make basic shapes. DONE!!!!! 
-- Move shapes. DONE!!!!! 
-- Make and Move multiple shapes. DONE!!!!!
-- Pull from pallet of shapes. DONE!!!!!
-- Snap to grid / row. DONE!!!!!
-
-- Improved feedback for new relationship (change glow color?)
-- Hover over existing relationship for children.
-- Undo / delete.
-- Draw connections (marriage,parent,child,sibling). done: M,P,C
-- Tap to show information about individual or relationship.
-- Tap/click to edit information about individual or relationship.
-  (divorce, deceased)
-- Draw connections that indicate relationships qualities.
-- Prevent overlap!
-- Drag and drop relationships.
-- Slider for timeline.
-- Lock focus around one individual.
-
-FIXES:
-- If double-linking, you can override the ability to lock into row.
-
 */
 
 final int GRID = 40; // controls vertical snap location, via Row class
